@@ -81,11 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="背景定位.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="背景定位.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/背景定位.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="背景关联.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/背景关联.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -108,7 +118,6 @@
       <list>
         <option value="$PROJECT_DIR$/字间距.html" />
         <option value="$PROJECT_DIR$/字母间隔.html" />
-        <option value="$PROJECT_DIR$/背景关联.html" />
         <option value="$PROJECT_DIR$/处理空白符.html" />
         <option value="$PROJECT_DIR$/不会合并空白符，会换行.html" />
         <option value="$PROJECT_DIR$/nowrap.html" />
@@ -121,6 +130,7 @@
         <option value="$PROJECT_DIR$/背景图像.html" />
         <option value="$PROJECT_DIR$/背景重复.html" />
         <option value="$PROJECT_DIR$/背景定位.html" />
+        <option value="$PROJECT_DIR$/背景关联.html" />
       </list>
     </option>
   </component>
@@ -131,10 +141,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
+    <option name="x" value="-10" />
     <option name="width" value="1934" />
-    <option name="height" value="1042" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -192,10 +201,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.背景定位.html">
-    <configuration default="false" name="边框样式.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/css/边框样式.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.背景关联.html">
     <configuration default="false" name="背景色.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/css/背景色.html">
       <method />
     </configuration>
@@ -206,6 +212,9 @@
       <method />
     </configuration>
     <configuration default="false" name="背景定位.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/css/背景定位.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="背景关联.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/css/背景关联.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -417,19 +426,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.边框样式.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.背景色.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.背景图像.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.背景重复.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.背景定位.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.背景色.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.背景图像.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.背景重复.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.背景定位.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.背景关联.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.背景定位.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.背景重复.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.背景图像.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.背景色.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.边框样式.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.背景关联.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.背景定位.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.背景重复.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.背景图像.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.背景色.html" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +459,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1934" height="1042" extended-state="0" />
+    <frame x="-10" y="0" width="1934" height="1030" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -572,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/背景关联.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/字母间隔.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -650,8 +652,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/背景定位.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="270">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/背景关联.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
           <folding />
         </state>
       </provider>
