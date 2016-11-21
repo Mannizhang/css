@@ -5,3 +5,15 @@ body{
     background-size:100%;
     background-repeat: no-repeat;
 }
+#login图标{
+     width: 400px;
+    height: 260px;
+    padding: 13px;
+    position: static;
+
+    margin-left: 500px;
+    margin-right: 500px;
+}
+#login_control{
+     padding: 0 28px;
+}
