@@ -15,5 +15,19 @@ body{
     margin-right: 500px;
 }
 #login_control{
-     padding: 0 28px;
+    width: 5000px;
+    height: 260px;
+
+    margin-left: 1000px;
+    margin-right: 1000px;
+
 }
+#login frame{
+    position: absolute;
+    width:5000px;
+    height: 290px;
+    margin-right: 1000px;
+    margin-left: 1000px;
+}
+
+
