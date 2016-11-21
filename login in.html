@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>login in</title>
-
+    <link rel="stylesheet" type="text/css" href="login%20in.css">
 
 </head>
-<body bgcolor="#f0f8ff">
-<form>
-    <fieldset>
-        <legend>login in</legend>
-        Email:<input type="email"><br/>
-        Password:<input type="password"><br/>
- <button type="button">登录</button>
-        <button type="button">注册</button>
-    </fieldset>
+<body>
 
-</form>
+<div id="login_frame">
+    <p id="图标"> <img src="图标.png"> </p>
+</div>
+<p><label class="label_input">邮箱</label><input type="email" id="email" placeholder="请输入你的邮箱"/></p>
+<p><label class="label_input">密码</label><input type="password" id="password" placeholder="请输入你的密码"/></p>
+
+        <div id="login_control">
+            <input type="button" id="btn_login" value="登录" onclick="login();"/>
+
+        </div>
+
 
 </body>
 </html>
