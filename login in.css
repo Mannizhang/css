@@ -23,11 +23,10 @@ body{
 
 }
 #login frame{
-    position: absolute;
-    width:5000px;
-    height: 290px;
-    margin-right: 1000px;
-    margin-left: 1000px;
+    margin-right: 150%;
 }
+
+
+
 
 
