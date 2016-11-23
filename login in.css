@@ -14,19 +14,13 @@ body{
     margin-left: 500px;
     margin-right: 500px;
 }
-#login_control{
-    width: 5000px;
-    height: 260px;
 
-    margin-left: 1000px;
-    margin-right: 1000px;
-
+#content
+{height: 30px;
+color: white;
+font-size: 18px;
+border: 0px;
+padding: 0px;
+cursor: pointer;
 }
-#login frame{
-    margin-right: 150%;
-}
-
-
-
-
 
