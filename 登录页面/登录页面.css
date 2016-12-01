@@ -1,0 +1,64 @@
+body {
+    font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+    color: #666;
+    background: #fff;
+    _background-attachment: fixed;
+}
+
+.w {
+    width: 990px;
+    margin: 0 auto;
+}
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+}
+div {
+    display: block;
+}
+
+#LOGIN图标{
+    position: relative;
+    width: 300px;
+    margin: 10px 0;
+    height: 60px;
+    float: left;
+}
+
+#content{
+    clear: both;
+    margin: 0;
+    padding:0;
+    display: block;
+}
+
+.login-wrap .login-from{
+    float: right;
+    top:40px;
+}
+.login-from{
+    position: relative;
+    z-index: 4;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    overflow: visible;
+    width:345px;
+    margin: 0;
+    padding:0;
+}
+.login-from .login-tab-2{
+    right: 0;
+    width: 173px;
+    height: 54px;
+    font-size: 18px;
+    
+}
