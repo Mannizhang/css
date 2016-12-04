@@ -29,8 +29,8 @@
       <file leaf-file-name="登录页面.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/登录页面/登录页面.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1971">
-              <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+            <state relative-caret-position="628">
+              <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,24 +39,23 @@
       <file leaf-file-name="登录页面.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/登录页面/登录页面.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="71" column="80" selection-start-line="71" selection-start-column="80" selection-end-line="71" selection-end-column="80" />
+            <state relative-caret-position="189">
+              <caret line="57" column="74" selection-start-line="57" selection-start-column="74" selection-end-line="57" selection-end-column="74" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#1;n#form#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#4578#4584#0" expanded="true" />
-                <element signature="e#4584#4590#0" expanded="true" />
-                <element signature="e#4590#4596#0" expanded="true" />
-                <element signature="e#4596#4602#0" expanded="true" />
+                <element signature="e#4585#4591#0" expanded="true" />
+                <element signature="e#4591#4597#0" expanded="true" />
+                <element signature="e#4597#4603#0" expanded="true" />
+                <element signature="e#4603#4609#0" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#6319#6325#0" expanded="true" />
                 <element signature="e#6326#6332#0" expanded="true" />
-                <element signature="e#6341#6347#0" expanded="true" />
-                <element signature="e#6347#6353#0" expanded="true" />
-                <element signature="e#6357#6363#0" expanded="true" />
+                <element signature="e#6333#6339#0" expanded="true" />
+                <element signature="e#6348#6354#0" expanded="true" />
+                <element signature="e#6354#6360#0" expanded="true" />
+                <element signature="e#6364#6370#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,7 +141,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,6 +161,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -864,32 +863,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/登录页面/登录页面.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="71" column="80" selection-start-line="71" selection-start-column="80" selection-end-line="71" selection-end-column="80" />
+        <state relative-caret-position="189">
+          <caret line="57" column="74" selection-start-line="57" selection-start-column="74" selection-end-line="57" selection-end-column="74" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#1;n#form#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4578#4584#0" expanded="true" />
-            <element signature="e#4584#4590#0" expanded="true" />
-            <element signature="e#4590#4596#0" expanded="true" />
-            <element signature="e#4596#4602#0" expanded="true" />
+            <element signature="e#4585#4591#0" expanded="true" />
+            <element signature="e#4591#4597#0" expanded="true" />
+            <element signature="e#4597#4603#0" expanded="true" />
+            <element signature="e#4603#4609#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6319#6325#0" expanded="true" />
             <element signature="e#6326#6332#0" expanded="true" />
-            <element signature="e#6341#6347#0" expanded="true" />
-            <element signature="e#6347#6353#0" expanded="true" />
-            <element signature="e#6357#6363#0" expanded="true" />
+            <element signature="e#6333#6339#0" expanded="true" />
+            <element signature="e#6348#6354#0" expanded="true" />
+            <element signature="e#6354#6360#0" expanded="true" />
+            <element signature="e#6364#6370#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/登录页面/登录页面.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1971">
-          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        <state relative-caret-position="628">
+          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding />
         </state>
       </provider>
