@@ -19,7 +19,7 @@ body {
     overflow: visible;
     padding: 0;
     width: 346px;
-    height: 358px;
+    height: 300px;
     margin: 0;
     right: 120px;
 }
@@ -119,6 +119,71 @@ a.checked {
     width: 38px;
     height: 38px;
     border-right: 2px;
+}
+
+.safe {
+    position: relative;
+    color: #666;
+}
+
+
+.safe span{
+    margin-right: 15px;
+}
+
+.jdcheckbox{
+    float: none;
+    vertical-align: middle;
+    margin: 0 3px 0 0;
+    padding: 0;
+}
+.form-label{
+    float: none;
+}
+.forget-pw-safe {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.item-fore5{
+    margin-bottom: 10px;
+}
+.login-btn {
+    border: 1px solid #cb2a2d;
+    margin: 0 auto;
+    height: 20px;
+    width: 99%;
+    position: relative;
+}
+
+.login-btn .btn-img {
+    border: 2px solid #e85356;
+    display: block;
+    width: 99%;
+    background: #e4393c;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-family:"Microsoft Tai Le";
+}
+
+.btn-img, .button {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
