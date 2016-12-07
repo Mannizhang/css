@@ -10,6 +10,17 @@ body {
     margin: 0 auto;
 }
 
+#图标 b{
+    display: block;
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    top: 50px;
+    left:110px;
+    background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/l-icon.png) no-repeat;
+}
+
+
 .login-wrap .login-from {
     float: right;
     top: 40px;
@@ -73,6 +84,19 @@ body {
     top:-10px;
 
 }
+.form .item .login-label {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 19px;
+    height: 19px;
+    border-right: 1px solid #bdbdbd;
+    background:
+            url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2016-1124/i/pwd-icons-new.png) no-repeat;
+}
+
+
 
 .mc {
     overflow: visible;
