@@ -20,6 +20,18 @@ body {
     background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/l-icon.png) no-repeat;
 }
 
+.msg-warn b {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    display: block;
+    margin-top: -8px;
+    width: 16px;
+    height: 17px;
+    overflow: hidden;
+    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2016-1124/i/pwd-icons-new.png) -104px -24px no-repeat;
+}
+
 .login-wrap .login-from {
     float: right;
     top: 40px;
@@ -29,9 +41,9 @@ body {
     overflow: visible;
     padding: 0;
     width: 346px;
-    height: 300px;
+    height: 350px;
     margin: 0;
-    right: 120px;
+    right: -10px;
 }
 
 .login-wrap {
@@ -121,16 +133,31 @@ a.checked {
     z-index: 6;
 }
 
-.form .item .login-label {
+.login-label {
     position: absolute;
     z-index: 3;
     top: -1px;
     left: -1px;
-    width: 20px;
-    height: 20px;
+    width: 29px;
+    height:29px;
     border-right: 1px solid #bdbdbd;
     background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2016-1124/i/pwd-icons-new.png) no-repeat;
 }
+
+
+.form .itxt {
+    line-height: 18px;
+    height: 9px;
+    border: 0;
+    padding: 10px 0 10px 50px;
+    width: 150px;
+    float: none;
+    overflow: hidden;
+    font-size: 10px;
+    font-family: '\5b8b\4f53';
+}
+
+
 
 .safe {
     position: relative;
