@@ -128,21 +128,29 @@ a.checked {
 
 .item-fore1 {
     border: 1px solid #bdbdbd;
-    height: 38px;
-    width: 304px;
+    height: 29px;
+    width: 200px;
     z-index: 6;
 }
+
+.item-fore2{
+    border: 1px solid #bdbdbd;
+    height: 29px;
+    width: 200px;
+    z-index: 6;}
 
 .login-label {
     position: absolute;
     z-index: 3;
-    top: -1px;
+    top: 0;
     left: -1px;
     width: 29px;
     height:29px;
     border-right: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
     background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2016-1124/i/pwd-icons-new.png) no-repeat;
     background-position: -3px -3px ;
+
 
 }
 
@@ -166,6 +174,8 @@ a.checked {
 .safe {
     position: relative;
     color: #666;
+    font-family: "Microsoft Tai Le";
+    font-size: 10px;
 }
 
 .safe span {
