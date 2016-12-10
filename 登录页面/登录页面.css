@@ -142,9 +142,13 @@ a.checked {
     height:29px;
     border-right: 1px solid #bdbdbd;
     background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2016-1124/i/pwd-icons-new.png) no-repeat;
+    background-position: -3px -3px ;
+
 }
 
-
+.pwd-label {
+    background-position: -52px -3px ;
+}
 .form .itxt {
     line-height: 18px;
     height: 9px;
@@ -205,9 +209,9 @@ a {
 }
 
 .login-btn .btn-img {
-    border: 2px solid #e85356;
+    border: 1px solid #e85356;
     display: block;
-    width: 99%;
+    width: 100%;
     background: #e4393c;
     height: 20px;
     line-height: 20px;
