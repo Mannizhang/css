@@ -10,15 +10,23 @@ body {
     margin: 0 auto;
 }
 
+a img{
+    width: 100px;
+    height: 100px;
+    left: 230px;
+    border: 0;
+}
+
 #logo b {
     display: block;
     width: 110px;
     height: 40px;
     position: absolute;
-    left: 240px;
-    top: 35px;
+    left: 250px;
+    top: 50px;
     background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/l-icon.png) no-repeat;
 }
+
 
 .msg-warn b {
     position: absolute;
