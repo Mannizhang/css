@@ -1,0 +1,17 @@
+div.eg-CSS3-transitions,
+div.eg-normal {
+    width: 250px;
+    padding: 15px;
+    background-color: #83CDBE;
+    margin: .5em;
+    box-sizing: border-box ;
+    color: #fff;
+}
+div.eg-CSS3-transitions:hover,
+div.eg-normal:hover {
+    width: 300px;
+}
+div.eg-CSS3-transitions {
+    -webkit-transition: width 1s;
+            transition: width 1s;
+}
