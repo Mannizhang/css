@@ -1,78 +1,89 @@
-.slider_container {
-    margin: 30px auto;
-    width: 300px;
-    height: 600px;
+*{
+    margin:0;
+    padding:0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.floatfix{
+    *zoom: 1;
+}
+
+
+.floatfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}  /*消除浮动*/
+.slider-contaner{
+    width:100%;
     position: relative;
-    border: 10px solid;
-    border-color: #fff;
-    border-bottom-width: 12px;
-    background-color: #f5f5f5;
-    box-shadow: #666 0 0 5px;
-    overflow: hidden;
 }
 
-.slider_container div {
-    -webkit-animation: round 25s linear infinite;
-            animation: round 25s linear infinite;
+.slider,.slider-item{
+    padding-bottom: 60%;/*内边距*/
 }
 
-@-webkit-keyframes round {
-    4% {
-        opacity: 1;
-        filter: alpha(opacity=100);
-
-    }
-    20% {
-        opacity: 1;
-        filter: alpha(opacity=100);
-
-    }
-    24% {
-        opacity: 0;
-        filter: alpha(opacity=0);
-
-    }
-}
- @keyframes round {
-    4% {
-        opacity: 1;
-        filter: alpha(opacity=100);
-
-    }
-    20% {
-        opacity: 1;
-        filter: alpha(opacity=100);
-
-    }
-    24% {
-        opacity: 0;
-        filter: alpha(opacity=0);
-
-    }
-}
-.slider_container div:nth-child(5) {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+.slider-item{
+    width: 100%;
+    position: absolute;
+    background-size: 100%;
 }
 
-.slider_container div:nth-child(4) {
-    -webkit-animation-delay: 5s;
-            animation-delay: 5s;
+.slider-item1{
+    background-image: url("1.jpg");
 }
-
-.slider_container div:nth-child(3) {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+.slider-item2{
+    background-image: url("2.jpg");
 }
-
-.slider_container div:nth-child(2) {
-    -webkit-animation-delay: 15s;
-            animation-delay: 15s;
+.slider-item3{
+    background-image: url("3.jpg");
 }
-
-.slider_container div:nth-child(1) {
-    -webkit-animation-delay: 20s;
-            animation-delay: 20s;
+.slider-item4{
+    background-image: url("4.jpg");
 }
-
-
+.slider-item5{
+    background-image: url("5.jpg");
+}
+@keyframes fade{
+0%{
+      opacity:0;
+      z-index:2;
+}
+5%{
+      opacity:1;
+      z-index: 1;
+}
+20%{
+      opacity:1;
+      z-index:1;
+}
+25%{
+      opacity:0;
+      z-index:0;
+}
+100%{
+      opacity:0;
+      z-index:0;
+}
+}
+.slider-item + .slider-item{
+      opacity:0;
+}
+.slider-item1{
+      animation-delay: -1s;
+}
+.slider-item2{
+      animation-delay: 3s;
+}
+.slider-item3{
+      animation-delay: 7s;
+}
+.slider-item4{
+      animation-delay: 11s;
+}
+.slider-item5{
+      animation-delay: 15s;
+}
