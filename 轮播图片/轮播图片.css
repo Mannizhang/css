@@ -14,7 +14,7 @@ ul,li{
 
 .floatfix:after{
     content: "";
-    display: table;
+    display: none;
     clear: both;
 }  /*消除浮动*/
 .slider-contaner{
