@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上下效果</title>
+    <link rel="stylesheet" type="text/css" href="上下效果.css">
+</head>
+<script type="text/javascript" src="move.js"></script>
+<script>
+    window.onload = function(){
+    var oUl = document.getElementsByTagName('ul')[0];
+	var aLiUl = oUl.getElementsByTagName('li');
+
+	var oOl = document.getElementsByTagName('ol')[0];
+	var aLiOl = oOl.getElementsByTagName('li');
+
+    var oneHeight=aLiUl[0].offsetHeight;/*获取一个图片的高度以便设置startMove*/
+
+	for(var i=0;i<aLiOl.length;i++){    /*设置按钮*/
+		aLiOl[i].index = i;/*加索引给按钮*/
+		aLiOl[i].onmouseover = function(){
+		    for(var i=0;i<aLiOl.length;i++){
+				aLiOl[i].className = '';
+			}
+			this.className = 'active';/*按钮的移动*/
+			startMove(oUl,{top:-this.index*oneHeight});/*移动的高度设置*/
+		};
+	}
+
+    };
+</script>
+<body>
+
+<div id="box">
+    <ul>
+        <li style="display:block"><img src="1.jpg" alt=""/></li>
+        <li><img src="2.jpg" alt=""/></li>
+        <li><img src="3.jpg" alt=""/></li>
+        <li><img src="4.jpg" alt=""/></li>
+        <li><img src="5.jpg" alt=""/></li>
+    </ul>
+    <ol>
+        <li class="active">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ol>
+
+</div>
+</body>
+</html>
