@@ -7,8 +7,6 @@
 </head>
 <script type="text/javascript" src="move.js"></script>
 <script>
-
-
 window.onload = function(){
 	var oUl = document.getElementsByTagName('ul')[0];
 	var aLiUl = oUl.getElementsByTagName('li');
@@ -34,23 +32,19 @@ window.onload = function(){
 };
 
 </script>
-
-
-
-
 <body>
 <div id="box">
     <ul>
-        <li style="display:block"><img src="1.jpg" alt=""/></li>
-        <li><img src="2.jpg" alt=""/></li>
-        <li><img src="3.jpg" alt=""/></li>
-        <li><img src="4.jpg" alt=""/></li>
-        <li><img src="5.jpg" alt=""/></li>
+        <li style="display:none;opacity:0;"><img src="1.jpg" alt=""/></li>
+        <li style="display: none;opacity: 0;"><img src="2.jpg" alt=""/></li>
+        <li style="display: none;opacity: 0;"><img src="3.jpg" alt=""/></li>
+        <li style="display: none;opacity: 0;"><img src="4.jpg" alt=""/></li>
+        <li style="display: none;opacity: 1;"><img src="5.jpg" alt=""/></li>
     </ul>
     <ol>
-        <li class="active">1</li>
+        <li >1</li>
         <li>2</li>
-        <li>3</li>
+        <li class="active">3</li>
         <li>4</li>
         <li>5</li>
     </ol>
